@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+}
+#header .top-header{
+    background-color: deeppink;
+    width: 100%;
+}
+#header .top-header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+#header  .top-header .container .top-right-link a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .2s linear;
+}
+
+#header  .top-header .container .top-right-link span{
+    padding: 0 5px;
+}
+#header  .bottom-header .container{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#header  .bottom-header .container .logo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#header  .bottom-header .container .search .btn-search{
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+ 
+}
+#header  .bottom-header .container .search .btn-search i{
+    font-size: 20px;
+}

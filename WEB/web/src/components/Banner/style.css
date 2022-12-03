@@ -1,0 +1,34 @@
+#banner{
+    background-image: url(./slider-bg-2.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#banner .container .banner-intro{
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+#banner .container .banner-intro .item{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#banner .container .banner-intro .item1{
+    background-color: deeppink;
+    transform: rotate(5deg);
+}
+#banner .container .banner-intro .item2{
+    background-color: rgb(206, 206, 23);
+}
+#banner .container .banner-intro .item3{
+    background-color: rgb(2, 129, 2);
+}

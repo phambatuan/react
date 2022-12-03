@@ -1,0 +1,7 @@
+.container hr{
+    margin: 20px 0;
+    width: 70px;
+    height: 10px;
+    background-color: deeppink;
+    border: none;
+}

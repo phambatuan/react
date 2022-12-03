@@ -1,0 +1,13 @@
+ .container .icon{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+    .container .icon li{
+    padding: 10px 0;
+    color: white;
+}
+ .container .icon li i{
+    color: white;
+    font-size: 20px;
+}
